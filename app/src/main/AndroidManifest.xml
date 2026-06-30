@@ -46,7 +46,7 @@
                 <data
                     android:scheme="msauth"
                     android:host="com.example.onedriveuploader"
-                    android:path="/SgLByH4082%2BzZ%2BnG2wJE3Zb5a6E%3D" />
+                    android:path="/SgLByH4082+zZ+nG2wJE3Zb5a6E=" />
             </intent-filter>
         </activity>
 
