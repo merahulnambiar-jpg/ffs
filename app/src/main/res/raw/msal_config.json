@@ -1,0 +1,16 @@
+{
+  "client_id": "7d93a30b-f662-40dd-a514-4cad79056e39",
+  "authorization_user_agent": "DEFAULT",
+  "redirect_uri": "msauth://com.example.onedriveuploader/SgLByH4082%2BzZ%2BnG2wJE3Zb5a6E%3D",
+  "account_mode": "SINGLE",
+  "authorities": [
+    {
+      "type": "AAD",
+      "audience": {
+        "type": "AzureADandPersonalMicrosoftAccount",
+        "tenant_id": "common"
+      },
+      "default": true
+    }
+  ]
+}
