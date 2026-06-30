@@ -83,7 +83,7 @@ class AuthManager(private val context: Context) {
         return suspendCancellableCoroutine { cont ->
             app.acquireTokenSilentAsync(
                 scopes,
-                app.authority,
+                account.authority,
                 object : SilentAuthenticationCallback {
                     override fun onSuccess(authenticationResult: IAuthenticationResult) {
                         if (cont.isActive) cont.resume(authenticationResult.accessToken)
