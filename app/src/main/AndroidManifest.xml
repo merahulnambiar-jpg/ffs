@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
-
+<queries>
+    <intent>
+        <action android:name="android.intent.action.VIEW" />
+        <category android:name="android.intent.category.BROWSABLE" />
+        <data android:scheme="https" />
+    </intent>
+</queries>
     <uses-permission android:name="android.permission.INTERNET" />
     <!-- Needed only on Android 12L / API 32 and below for browsing/picking files via SAF if you extend the picker -->
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
